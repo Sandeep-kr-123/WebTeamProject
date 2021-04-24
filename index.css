@@ -45,42 +45,14 @@
     cursor: pointer;
 }
 
-
-.container{
-    border: 2px solid white;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container li{
-    display: flex;
-    width: 47%;
-    list-style: none;
-}
-
-.container1{
-    margin-top: 2px;
-    border: 2px solid grey;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.container1 li{
-    display: flex;
-    width: 33%;
-    list-style: none;
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .fashion{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.fashion li{
-    display: flex;
-    width: 19%;
-    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .row{

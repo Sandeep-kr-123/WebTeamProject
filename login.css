@@ -28,18 +28,35 @@
 body{
    background-color: #baafaf;
 }
-.container{ 
+.container{
     width: 50%;
     color: white;
     position: absolute;
-    top: 25%;
-    left: 20%; 
+    top: 20%; 
+    left: 15%;
 }
 
 .container h1{
     width: 35%;
     display: inline-block;
     font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.container1{
+    width: 63%;
+    color: white;
+    position: absolute;
+    top: 20%; 
+    left: 60%;
+}
+
+.container1 h2{
+    width: 100%;
+    display: inline-block;
+    font-size: 30px;
     border-bottom: 5px solid purple;
     margin-bottom: 15px;
     padding: 13px 0;
