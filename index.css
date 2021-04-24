@@ -1,0 +1,101 @@
+.navbar{
+    background-color: #2c2cfa;
+    border-radius: 4px;
+    position: sticky;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 15px 50px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar input{
+    margin: 10px 0px;
+    padding: 0 16px;
+    border-radius: 4px;
+    outline: 0 none;
+    font-size: 18px;
+    height: 36px;
+    width: 30%;
+}
+
+.btn{
+    justify-content: flex-end;
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 34px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.container{
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container li{
+    display: flex;
+    width: 47%;
+    list-style: none;
+}
+
+.container1{
+    margin-top: 2px;
+    border: 2px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 li{
+    display: flex;
+    width: 33%;
+    list-style: none;
+}
+
+.fashion{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.fashion li{
+    display: flex;
+    width: 19%;
+    list-style: none;
+}
+
+.row{
+    background-color: rgb(255 236 236);
+    padding: 100px 50px;
+    
+}
+
+.right{
+    float: right;
+    font-size: 25px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.left{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
