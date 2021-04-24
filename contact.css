@@ -24,7 +24,13 @@ body {
     font-size: 20px;
 }
 
+.navbar li:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
 .contact{
+    background-color: #eff1b7;
     border: 3px solid black;
     position: absolute;
     top: 15%;
@@ -68,6 +74,7 @@ body {
 }
 
 .btn-dark {
+    background-color: #ffe888;
     color: black;
     border: 2px solid black;
     text-align: center;

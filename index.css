@@ -11,7 +11,12 @@
 .navbar li{
     float: right;
     list-style: none;
-    margin: 15px 50px;
+    margin: 16px 40px;
+}
+
+.navbar li:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
 }
 
 .navbar li a{
