@@ -51,7 +51,6 @@
 }
 
 .second{
-    padding-right: 20px;
     text-align: center;
     justify-content: center;
 }
@@ -71,8 +70,12 @@
     background-color: black;
     border: 2px solid grey;
     border-radius: 35px;
-
     font-size: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+#shop:hover{
+    transform: translate(3px,-3px);
 }
 
 .item{
