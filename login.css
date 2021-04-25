@@ -37,7 +37,7 @@ body{
 }
 
 .container h1{
-    width: 35%;
+    width: 100%;
     display: inline-block;
     font-size: 40px;
     border-bottom: 5px solid purple;

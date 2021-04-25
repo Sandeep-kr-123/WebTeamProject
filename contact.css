@@ -32,8 +32,9 @@ body {
 .contact{
     background-color: #eff1b7;
     border: 3px solid black;
+    border-radius: 10px;
     position: absolute;
-    top: 15%;
+    top: 20%;
     left: 22%;
 }
 

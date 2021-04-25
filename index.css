@@ -1,7 +1,6 @@
 .navbar{
     background-color: #2c2cfa;
     border-radius: 4px;
-    position: sticky;
 }
 
 .navbar ul{
@@ -45,23 +44,30 @@
     cursor: pointer;
 }
 
+
 .box{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 .fashion{
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
 
+footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr ;
+}
+
 .row{
     background-color: #c5b8c2;
     padding: 50px 50px;
-    
 }
 
 .right{
+    list-style: none;
     float: right;
     font-size: 25px;
     padding: 0px 15px;
@@ -71,8 +77,22 @@
 .left{
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+
+@media(max-width:1449px){
+    .fashion{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
+@media(max-width:1070px){
+    .fashion{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
-
+}
 
 
