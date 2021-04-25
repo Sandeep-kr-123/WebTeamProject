@@ -44,14 +44,54 @@
     cursor: pointer;
 }
 
+.first{
+    background-color: #17a2b8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.second{
+    padding-right: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.second h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 90px;
+}
+
+.second h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+#shop{
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 35px;
+
+    font-size: 50px;
+}
+
+.item{
+    padding-left: 50px;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 
 .box{
+    padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 
 .fashion{
+    padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
 }
@@ -93,6 +133,18 @@ footer{
         grid-template-columns: 1fr 1fr;
     }
 
+}
+
+@media(max-width:1310px){
+    .item{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:1175px){
+    .first{
+        display: none;
+    }
 }
 
 
