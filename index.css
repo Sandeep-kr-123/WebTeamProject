@@ -10,7 +10,7 @@
 .navbar li{
     float: right;
     list-style: none;
-    margin: 16px 40px;
+    margin: 16px 36px;
 }
 
 .navbar li:hover{
@@ -42,6 +42,24 @@
     width: 44px;
     border-radius: 2px;
     cursor: pointer;
+}
+
+.welcome{
+    display: grid;
+    background-color: #1c98e9;
+}
+
+.welcome h1{
+    width: auto;
+    position: relative;
+    margin: auto;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center{
+    position: relative;
+    margin: auto;
 }
 
 .first{
@@ -85,6 +103,11 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.item div{
+    position: relative;
+    margin: auto;
+}
+
 
 .box{
     padding-top: 10px;
@@ -92,11 +115,21 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.box div{
+    position: relative;
+    margin: auto;
+}
+
 
 .fashion{
     padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
+}
+
+.fashion div{
+    position: relative;
+    margin: auto;
 }
 
 footer{
@@ -126,7 +159,7 @@ footer{
 @media(max-width:1449px){
     .fashion{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
@@ -144,9 +177,9 @@ footer{
     }
 }
 
-@media(max-width:1175px){
+@media(max-width:1160px){
     .first{
-        display: none;
+        width: fit-content;
     }
 }
 
