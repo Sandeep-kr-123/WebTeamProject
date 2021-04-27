@@ -29,13 +29,19 @@ body {
     transform: scale(1.1);
 }
 
-.contact{
+.container{
     background-color: #eff1b7;
     border: 3px solid black;
     border-radius: 10px;
-    position: absolute;
-    top: 20%;
-    left: 22%;
+    max-width: fit-content;
+
+}
+
+.contact{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-center {
