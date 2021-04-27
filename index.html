@@ -32,8 +32,9 @@
     </header>
 
 
-    <div class="welcome" id="welcome">
-        <h1>Welcome To My Page!</h1>
+    <div class="welcome" id="hide">
+        <div id="welcome">Welcome To My Page!</div>
+        <div><button id="btn2" onclick="hide()"><i class="fa fa-times"></i></button></div>
     </div>
 
     <div class="first">
@@ -103,6 +104,12 @@
         <hr>
     </div>
 
+    <script>
+        function hide(){
+            let hide = document.getElementById('hide');
+            hide.style.display = 'none';
+        }
+    </script>
 
 </body>
 

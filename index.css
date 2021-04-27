@@ -49,11 +49,21 @@ body{
     display: grid;
     background-color: rgb(28, 152, 233);
 }
-
-.welcome h1{
+.welcome{
     margin: auto;
-    font-size: 80px;
+}
+
+.welcome div{
+    margin: auto;
+}
+
+#welcome{
+    font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn2{
+    background-color: #2c2cfa;
 }
 
 .center{

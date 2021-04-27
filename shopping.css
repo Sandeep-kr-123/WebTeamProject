@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.container img{
+    width: 370px;
+    height: 420px;
+}
+
+.container div{
+    margin: auto;
+}
+.container p{
+    color: red;
+    text-align: center;
+}
+.container h4{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
